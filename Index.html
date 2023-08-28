@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ItsWalkerMusic - Portfolio</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    
+       <!--favicon-img--> 
+       <link rel="icon" type="image/png" href="images/W.jpg">
+       <!--favicon-img-->
+    
+        <link rel="stylesheet" href="css/index.css">
+       
+        <script>
+            function getMensaje(){
+            var aFrases=new Array();
+            aFrases[0]="Use Headphone For Better Experience";
+            aFrases[1]="M <3";
+            aFrases[2]="I learn from everything and i'm master of none";
+            aFrases[3]="I like pizza :)";
+            aFrases[4]="Continue?";
+            aFrases[5]="Follow your dreams"
+            aFrases[6]="My queseso reaction"
+            aFrases[7]="Rem my beloved"
+            aFrases[8]="Lia best waifu"
+            aFrases[9]="Troleador cara"
+            aFrases[10]="Just no"
+            aFrases[11]="Just yes"
+            aFrases[12]="Mi cara cuando:"
+            return(aFrases[Math.floor(Math.random() * aFrases.length)]);
+            }
+            </script>
+    </head>
+<body>
+    <!-- MAIN CONTENT -->
+    <main id="index-one">
+
+        <!-- PRELOADER -->
+        <div id="preloader">
+            <div class="p">
+                <img src="images/headphone.png" alt="headphone">
+                <img src="images/loader.gif" alt="Loading">
+                <div class="p"><script>document.write(getMensaje());</script></div>
+            </div>
+        </div>
+        <!-- PRELOADER -->
+
+
+<!-- HEADER -->
+<div id="header">
+
+
+
+    <!-- NAVIGATION -->
+    <div class="navigation">
+        <div class="logo hover ">
+           <a href="#" class="text">IT'S WALKER MUSIC</a>
+        </div>
+        <div class="menu-bar hover ">
+            <div class="menu-bar-name text">
+                Menu
+            </div>
+            <div class="menu-bar-lines text">
+                <div class="menu-bar-line"></div>
+                <div class="menu-bar-line"></div>
+            </div>
+        </div>
+    </div>
+    <!-- NAVIGATION -->
+
+
+
+
+    <!-- SOCIAL-MEDIA-LINKS -->
+    <div class="social-media-links">
+        <ul>
+            <li ><a href="https://www.youtube.com/@ItsWalkerMusic" data-text="Youtube" class="text hover">YT</a></li>
+            <li ><a href="https://twitter.com/ItsWalker412" data-text="X" class="text hover">X</a></li>
+            <li ><a href="https://www.instagram.com/itswalker412/" data-text="Instagram" class="text hover">IG</a></li>
+        </ul>
+    </div>
+    <!-- SOCIAL-MEDIA-LINKS -->
+
+    <!-- HEADPHONE IMG -->
+    <div class="headphone img text">
+        <img src="images/headphone.png"  class = "text" alt="headphone">
+    </div>
+    <!-- HEADPHONE IMG -->
+
+
+
+    <!-- NEW RELEASE -->
+<div class="new-release img text">
+
+
+    <img src="images/Unkown.jpg" alt="new-release">
+<div class="song-details">
+    <div class="song-name">Sunset Drive</div>
+    <div class="singer-name">It's Walker</div>
+    <div class="music-player">
+    <div class="play-song">
+        <img src="images/play.png" alt="play" data-song="darkfire" class="hover" >
+       
+        <audio src="music/Sunset Drive.ogg" data-audio="darkfire"></audio> <!--LINK AND NAME OF AUDIO YOU WANT TO PLAY-->
+    </div>
+    <div class="all-songs">
+        <a href="Songs.html" title="All Songs"><i class="gg-arrow-right"></i></a>
+    </div>
+    </div>
+</div>
+
+    
+</div>
+    <!-- NEW RELEASE -->
+
+
+</div>
+<!-- HEADER -->
+
+
+    <!-- NAVIGATION CONTENT -->
+
+    <div class="navigation-content">
+        <div class="navigation-logo hover opacity">
+            <a href="#" class="text">IT'S WALKER MUSIC</a>
+         </div>
+        <ul class="navigation-ul">
+            <li><a href="Index.html" data-text="Home">Home</a></li>
+            <li><a href="About.html"  data-text="About">About</a></li>
+            <li><a href="Songs.html" data-text="Songs">Songs</a></li>
+            <!--li><a href="blog-one.html"  data-text="Blogs">Blogs</a></li>
+            <li><a href="contact-one.html"  data-text="Contact">Contact</a></li-->
+        </ul>
+        <div class="navigation-close hover about-close opacity">
+            <div class="navigation-close-line"></div>
+            <div class="navigation-close-line"></div>
+          </div>
+    
+            <div class="project-preview"></div>
+    
+            
+     <!-- HEADPHONE IMG -->
+     <div class="headphone-navigation opacity">
+        <img src="images/headphone.png" title="headphone zone" class="text" alt="headphone">
+      </div>
+       <!-- HEADPHONE IMG -->
+    
+    
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="social-media-links-navigation">
+            <ul>
+                <li ><a href="https://www.youtube.com/@ItsWalkerMusic"  class="text hover opacity">YT</a></li>
+                <li ><a href="https://twitter.com/ItsWalker412"  class="text hover opacity">X</a></li>
+                <li ><a href="https://www.instagram.com/itswalker412/"  class="text hover opacity">IG</a></li>
+            </ul>
+        </div>
+          <!-- SOCIAL MEDIA LINKS -->
+    
+    </div>
+    
+    <!-- NAVIGATION CONTENT -->
+
+
+
+    </main>
+    <!-- MAIN CONTENT -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bez.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
